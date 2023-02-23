@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  font-size: 14px;
+}
+.App-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75vw;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+.App-content {
+  display: flex;
+  background-color: white;
+  padding: 7px 20px;
+}

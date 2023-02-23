@@ -1,0 +1,19 @@
+.card {
+  height: 90px;
+  width: 200px;
+  padding: 20px;
+  line-height: 2;
+
+  background-color: whitesmoke;
+  margin: 0px 10px;
+}
+.card-body {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: left;
+}
+.card-item {
+}
+.card-text {
+  font-weight: 600;
+}
