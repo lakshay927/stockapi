@@ -6,9 +6,9 @@ import ScripInfo from "./ScripInfo";
 function HeaderInfo(props) {
   const Parentdiv = {
     background: "whitesmoke",
-    textAlign: "left",
+
     display: "flex",
-    width: 300,
+
     alignItems: "center",
   };
   return (

@@ -20,4 +20,26 @@
   display: flex;
   background-color: white;
   padding: 7px 20px;
+  margin: auto;
+}
+@media screen and (max-width: 850px) {
+  .App-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .App-container {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .App-content {
+    flex-direction: column;
+    padding: 0px;
+    justify-content: center;
+  }
+  .App-content > div {
+    margin: 10px;
+    width: 75vw;
+    padding: 20px;
+    justify-content: center;
+  }
 }
